@@ -578,7 +578,7 @@ padding-top: 9%;
     padding-top: 
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 415px) {
        
     .nav-links{
         display: none;
@@ -645,7 +645,7 @@ padding-top: 9%;
         
     }
     .head h1{
-    font-size: 15px;
+    font-size: 20px;
     font-weight: 550;
     line-height: 50px;
     font-style: normal;
@@ -844,16 +844,16 @@ padding-top: 9%;
         text-align: center;
         isolation: isolate;
         padding-top: 5%;
-        height: 85%;
+        height: 95%;
         margin-left: 3px;
         margin-top: 0px;
     }
     .creative h1{
-        font-size: 20px;
+        font-size: 15px;
         
     }
     .creative h5{
-        font-size: 100%;
+        font-size: 80%;
         font-weight: lighter;
         font-style: normal;
         color:  #6E6E73;
@@ -862,8 +862,8 @@ padding-top: 9%;
     .creative-topitem{
         z-index: 1;
         position: absolute;
-        margin-left: calc(20%);
-        margin-right: calc(10%);
+        margin-left: calc(26%);
+        margin-right: calc(25%);
     }   
     .creative img{
         width: 100%;
@@ -1028,7 +1028,7 @@ padding-top: 9%;
         margin-top: 1px;
     }
     .gift h1{
-        font-size: 25px;
+        font-size: 20px;
     }
     .gift h4{
         font-size: small;
@@ -1044,13 +1044,13 @@ padding-top: 9%;
     .gift-topitem{
         z-index: 1;
         position: absolute;
-        margin-left: calc(20%);
+        margin-left: calc(23%);
         margin-right: calc(20%);
     }   
     .gift img{
         width: 100%;
         z-index: 0;
-        margin-top:20%;
+        margin-top:26%;
         position: relative;
         
     }
@@ -1112,23 +1112,28 @@ padding-top: 9%;
         width: 35%;
        
     }
+    .shop-and-learn h2{
+        font-size: 18px;
+    }
     .shop-and-learn {
-        margin-left: -11%;
+       text-align: center;
+        width: 100%;
     }
     .services{
-        margin-left: 4%;
+       width: 100%;
+       text-align: center;
     }
     .apple-store{
+        width: 100%;
         text-align: center;
-        margin-left: -8%;
     }
     .apple-values{
-        text-align: center;
-        margin-left: -5%;
+       width: 100%;
+       text-align: center;
     }
     .about-apple{
+        width: 100%;
         text-align: center;
-        margin-left: -2%;
     }
     .final-section{
         position: relative;
@@ -1140,6 +1145,9 @@ padding-top: 9%;
     .final-section hr{
         margin-top: 5px;
         width: 70%;
+    }
+    .final-section .final-condainer{
+        margin-left: 0px;
     }
     .final-section .final-condainer h4{
         padding-left: 18%;
@@ -1177,4 +1185,523 @@ padding-top: 9%;
         font-weight: 300;
         padding-top: 0px;
     }
+}
+@media only screen and (min-width:415px) and (max-width: 960px) {
+    .nav-links{
+        display: none;
+    }
+    .navbar ul{
+    
+        margin-top: 15px;
+        width: 800px;
+        background-color:  gray;
+        padding-left: 15%;
+        padding: 10px;
+        margin-left: %;
+    
+    }
+    #logo{
+
+    }
+    .navbar ul li{
+        padding: 5px 20px;
+        display: flex; 
+        font-weight: lighter;
+        font-size: smaller;
+        width: 255px;
+    }
+    .navbar ul li:hover{
+        cursor: pointer;
+        background-color: black;
+        border-radius: 10px;
+        width: 100px;
+    }
+    .navbar label{
+        display: initial;
+        margin-left: 75%;
+        margin-top: 10px;
+    }
+    #menu-bar:checked~.nav-links{
+        display: initial;
+        z-index: 10;
+    }   
+    .section-condainer{
+        width: 100%;
+    }
+    .search-logo{
+        margin-top: -35px;
+        margin-left: 70%;
+    }
+    .bag{
+        margin-top: -88px;
+        margin-left: 90%;
+    }
+    .head{
+        background-color: rgba(0, 0, 0, 1);
+        position: absolute;
+        height: 350px;
+        left: 0px;
+        right: 0px;
+        top: 44px;
+        width: 100%;
+        color: #f5f5f7;
+        text-align: center;
+        display:grid;
+        align-items: center;
+        justify-content: space-around;
+        z-index: 1;
+        
+    }
+    .head h1{
+    font-size: 25px;
+    font-weight: 550;
+    line-height: 50px;
+    font-style: normal;
+    letter-spacing: -0.28px;
+    width: 250px;
+    height: 120px;
+    padding-top: 9%;
+    }
+    
+    .head .announcement{
+        border: 2px;
+        width: 200px;
+        border-style: solid;
+        border-color:rgba(233, 95, 51, 1)
+        rgba(204, 24, 198, 1)
+        rgba(70, 152, 255, 1)
+        rgba(37, 101, 244, 1);
+        box-sizing: border-box; 
+        border-radius: 980px;
+        margin-left: 10%;
+        font-style: normal;
+        font-size: 10px;
+        font-weight: 10;
+        line-height: 10px;
+    }
+    .macbook-pro{
+        height: 500px;
+        background-color: black;
+        width: 100%;
+        margin-top: 400px;
+        color: #f5f5f7;
+        text-align: center;
+        isolation: isolate;
+    }
+    .macbook-pro h1{
+        font-size: 35px;
+        
+    }
+    .macbook-pro h4{
+        font-size: 200%;
+        font-weight:lighter;
+        font-style: normal;
+        letter-spacing: 0px;
+        margin-top: -20px;
+        
+    }
+    .macbook-pro h5{
+        font-size: 100%;
+        font-weight: lighter;
+        font-style: normal;
+        color:  #6E6E73;;
+        
+    }
+    .learnmore-link ul {
+        display: flex;
+        list-style: none;
+        margin-top: 0px;
+        margin-left: -1%;
+        
+    }
+    .macbook-pro .learnmore-link ul li{
+      font-size: 100%;
+        color: #2997FF;
+        width: 45%;
+    }
+    .macbook-pro-topitem{
+        z-index: 1;
+        margin-left: calc(20%);
+        margin-right: calc(20%);
+        margin-top: 30px;
+
+    }
+    .macbook-pro .macbook-pro-img{
+        z-index: 0;
+        margin-top:200px;
+        position: relative;
+        
+    }
+    .mac-mini{
+        height: 500px;
+        background-color: black;
+        width: 100%;
+        top: 0;
+        margin-top: 80px;
+        color: #f5f5f7;
+        text-align: center;
+        isolation: isolate;
+    }
+    .mac-mini h1{
+        font-size: 35px;
+        
+    }
+    .mac-mini h4{
+        font-size: 200%;
+        font-weight:lighter;
+        font-style: normal;
+        letter-spacing: 0px;
+        margin-top: -20px;
+        
+    }
+    .mac-mini h5{
+        font-size: 150%;
+        font-weight: lighter;
+        font-style: normal;
+        color:  #6E6E73;;
+        
+    }
+    .mac-mini-learnmore-link ul {
+        display: flex;
+        list-style: none;
+        margin-top: 0px;
+        
+    }
+    .mac-mini-learnmore-link ul li{
+      font-size: 95%;
+        color: #2997FF;
+        width: 45%;
+    }
+    .mac-mini-topitem{
+        z-index: 1;
+        position: absolute;
+        margin-left: calc(20%);
+        margin-right: calc(20%);
+        margin-top: 30px;
+    }
+    .mac-mini .mac-mini-img{
+        width: 100%;
+        z-index: 0;
+        margin-top:200px;
+        position: relative;
+        
+    }
+    .homepad{
+        height: 400px;
+        background-color: black;
+        width: 100%;
+        margin-top: 105px;
+        color: #f5f5f7;
+        text-align: center;
+        isolation: isolate;
+    }
+    .homepad h1{
+        font-size: 35px;
+        
+    }
+    .homepad h4{
+        font-size: 200%;
+        font-weight:lighter;
+        font-style: normal;
+        letter-spacing: 0px;
+        margin-top: -20px;
+        
+    }
+    .homepad h5{
+        font-size: 120%;
+        font-weight: lighter;
+        font-style: normal;
+        color:  #6E6E73;;
+        
+    }
+    .homepad-learnmore-link ul {
+        display: flex;
+        list-style: none;
+        margin-top: 0px;
+        margin-left: 0%;
+        
+    }
+    .homepad .homepad-learnmore-link ul li{
+      font-size: 100%;
+        color: #2997FF;
+        width: 45%;
+    }
+    .homepad-topitem{
+        z-index: 1;
+        margin-left: calc(20%);
+        margin-right: calc(20%);
+        margin-top: 30px;
+
+    }
+    .homepad .homepad-img{
+        z-index: 0;
+        margin-top:200px;
+        position: relative;
+        
+    }
+    .grid-condainer{
+        grid-template-columns: 1fr;
+        position: relative;
+        text-align: center;
+        width: 97%;
+        top: 210px;
+      }
+      .creative{
+        width: 100%;
+        color: #f5f5f7;
+        text-align: center;
+        isolation: isolate;
+        padding-top: 5%;
+        height: 95%;
+        margin-left: 10px;
+        margin-top: 0px;
+    }
+    .creative h1{
+        font-size: 40px;
+        
+    }
+    .creative h5{
+        font-size: 150%;
+        font-weight: lighter;
+        font-style: normal;
+        color:  #6E6E73;
+        
+    }
+    .creative-topitem{
+        z-index: 1;
+        position: absolute;
+        padding-top: 10%;
+        margin-left: calc(30%);
+        margin-right: calc(15%);
+    }   
+    .creative img{
+        width: 100%;
+        z-index: 0;
+        margin-top:20%;
+        position: relative;
+        
+    }
+    .creative-learnmore-link ul {
+        display: flex;
+        list-style: none;
+    }
+    .creative-learnmore-link ul li{
+       font-size: 90%;
+        color: #2997FF;
+        width: 40%;
+    }
+    .watch{
+        width: 100%;
+        color: #f5f5f7;
+        text-align: center;
+        isolation: isolate;
+        padding-top: 5%;
+        height: 95%;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .watch h1{
+        font-size: 50px;
+        
+    }
+    .watch h5{
+        font-size: 150%;
+        font-weight: lighter;
+        font-style: normal;
+        color:  #6E6E73;
+        
+    }
+    .watch-topitem{
+        z-index: 1;
+        position: absolute;
+        padding-top: 10%;
+        margin-left: calc(24%);
+        margin-right: calc(15%);
+    }   
+    .watch img{
+        width: 100%;
+        z-index: 0;
+        margin-top:20%;
+        position: relative;
+        
+    }
+    .watch-learnmore-link ul {
+        display: flex;
+        list-style: none;
+    }
+    .watch-learnmore-link ul li{
+       font-size: 90%;
+        color: #2997FF;
+        width: 40%;
+    }
+    .iphone-14pro{
+        width: 100%;
+        color: #f5f5f7;
+        text-align: center;
+        isolation: isolate;
+        padding-top: 5%;
+        height: 95%;
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+    .iphone-14pro h1{
+        font-size: 40px;
+        
+    }
+    .iphone-14pro h5{
+        font-size: 150%;
+        font-weight: lighter;
+        font-style: normal;
+        color:  #6E6E73;
+        
+    }
+    .iphone-14pro-topitem{
+        z-index: 1;
+        position: absolute;
+        padding-top: 10%;
+        margin-left: calc(35%);
+        margin-right: calc(15%);
+    }   
+    .iphone-14pro img{
+        width: 100%;
+        z-index: 0;
+        margin-top:20%;
+        position: relative;
+        
+    }
+    .iphone-14pro-learnmore-link ul {
+        display: flex;
+        list-style: none;
+    }
+    .iphone-14pro-learnmore-link ul li{
+       font-size: 90%;
+        color: #2997FF;
+        width: 40%;
+    }
+    .iphone-14{
+        width: 100%;
+        color: black;
+        text-align: center;
+        isolation: isolate;
+        padding-top: 5%;
+        height: 95%;
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+    .iphone-14 h1{
+        font-size: 40px;
+        
+    }
+    .iphone-14 h5{
+        font-size: 150%;
+        font-weight: lighter;
+        font-style: normal;
+        color:  #6E6E73;
+        
+    }
+    .iphone-14-topitem{
+        z-index: 1;
+        position: absolute;
+        padding-top: 10%;
+        margin-left: calc(36%);
+        margin-right: calc(15%);
+    }   
+    .iphone-14 img{
+        width: 100%;
+        z-index: 0;
+        margin-top:20%;
+        position: relative;
+        
+    }
+    .iphone-14-learnmore-link ul {
+        display: flex;
+        list-style: none;
+    }
+    .iphone-14-learnmore-link ul li{
+       font-size: 90%;
+        color: black;
+        width: 40%;
+    }
+    .gift{
+        width: 100%;
+        color: #f5f5f7;
+        text-align: center;
+        isolation: isolate;
+        padding-top: 5%;
+        height: 80%;
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+    .gift h1{
+        font-size: 40px;
+        height: 100px;
+        
+    }
+    .gift h5{
+        font-size: 150%;
+        font-weight: lighter;
+        font-style: normal;
+        color:  #6E6E73;
+        
+    }
+    .gift-topitem{
+        z-index: 1;
+        position: absolute;
+        padding-top: 5%;
+        margin-left: calc(28%);
+        margin-right: calc(15%);
+    }   
+    .gift img{
+        width: 100%;
+        z-index: 0;
+        margin-top:20%;
+        position: relative;
+        
+    }
+    .card{
+        width: 100%;
+        color: black;
+        text-align: center;
+        isolation: isolate;
+        padding-top: 5%;
+        height: 95%;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .card h1{
+        font-size: 40px;
+        
+    }
+    .card h5{
+        font-size: 150%;
+        font-weight: lighter;
+        font-style: normal;
+        color:  #6E6E73;
+        
+    }
+    .card-topitem{
+        z-index: 1;
+        position: absolute;
+        padding-top: 5%;
+        margin-left: calc(25%);
+        margin-right: calc(15%);
+    }   
+    .card img{
+        width: 100%;
+        z-index: 0;
+        margin-top:10%;
+        position: relative;
+        
+    }
+    .final-section{
+        top: 100px;
+        position: relative;
+    }
+    .footer{
+        position: relative;
+        top: 0;
+        padding-top: 10px;
+        margin-top: 115px;
+    }
+    
 }
