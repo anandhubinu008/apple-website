@@ -585,11 +585,11 @@ padding-top: 9%;
     }
     .navbar ul{
     
-        margin-top: 50px;
+        margin-top: 20px;
         width: 500%;
         background-color:  gray;
-        padding-left: 0px;
-        margin-left: -10%;
+        padding-left: 15%;
+        margin-left: -11%;
     
     }
     #logo{
@@ -600,6 +600,7 @@ padding-top: 9%;
         display: flex; 
         font-weight: lighter;
         font-size: smaller;
+        width: 255px;
     }
     .navbar ul li:hover{
         cursor: pointer;
@@ -609,7 +610,7 @@ padding-top: 9%;
     }
     .navbar label{
         display: initial;
-        margin-left: 45%;
+        margin-left: 60%;
         margin-top: 10px;
     }
     #menu-bar:checked~.nav-links{
@@ -674,7 +675,7 @@ padding-top: 9%;
         height: 400px;
         background-color: black;
         width: 100%;
-        margin-top: 350px;
+        margin-top: 346px;
         color: #f5f5f7;
         text-align: center;
         isolation: isolate;
@@ -712,7 +713,8 @@ padding-top: 9%;
     }
     .macbook-pro-topitem{
         z-index: 1;
-        margin-left: 14%;
+        margin-left: calc(20%);
+        margin-right: calc(20%);
         margin-top: 30px;
 
     }
@@ -726,7 +728,7 @@ padding-top: 9%;
         height: 400px;
         background-color: black;
         width: 100%;
-        margin-top: 7px;
+        margin-top: 3px;
         color: #f5f5f7;
         text-align: center;
         isolation: isolate;
@@ -764,7 +766,8 @@ padding-top: 9%;
     .mac-mini-topitem{
         z-index: 1;
         position: absolute;
-        margin-left: 17%;
+        margin-left: calc(20%);
+        margin-right: calc(20%);
         margin-top: 30px;
     }
     .mac-mini .mac-mini-img{
@@ -778,7 +781,7 @@ padding-top: 9%;
         height: 400px;
         background-color: black;
         width: 100%;
-        margin-top: 7px;
+        margin-top: 3px;
         color: #f5f5f7;
         text-align: center;
         isolation: isolate;
@@ -816,7 +819,8 @@ padding-top: 9%;
     .homepad-topitem{
         z-index: 1;
         position: absolute;
-        margin-left: 17%;
+        margin-left: calc(20%);
+        margin-right: calc(20%);
         margin-top: 30px;
     }
     .homepad .homepad-img{
@@ -829,19 +833,20 @@ padding-top: 9%;
     
     .grid-condainer{
       grid-template-columns: 1fr;
-      margin-top: 0px;
       position: relative;
       text-align: center;
       width: 100%;
-      top: 10px;
+      top: 3px;
     }
     .creative{
-        width: 95%;
+        width: 98%;
         color: #f5f5f7;
         text-align: center;
         isolation: isolate;
         padding-top: 5%;
         height: 85%;
+        margin-left: 3px;
+        margin-top: 0px;
     }
     .creative h1{
         font-size: 20px;
@@ -857,7 +862,8 @@ padding-top: 9%;
     .creative-topitem{
         z-index: 1;
         position: absolute;
-        margin-left: 20%;
+        margin-left: calc(20%);
+        margin-right: calc(10%);
     }   
     .creative img{
         width: 100%;
@@ -871,19 +877,19 @@ padding-top: 9%;
         list-style: none;
     }
     .creative-learnmore-link ul li{
-       font-size: 85%;
+       font-size: 90%;
         color: #2997FF;
-        width: 50%;
+        width: 40%;
     }
     .watch{
-        width: 95%;
+        width: 98%;
         color: #f5f5f7;
         text-align: center;
         isolation: isolate;
         padding-top: 5%;
         height: 85%;
-        margin-left: 10px;
-        margin-top: 10px;
+        margin-left: 4px;
+        margin-top: 1px;
     }
     .watch h5{
         font-size: 100%;
@@ -895,8 +901,9 @@ padding-top: 9%;
     .watch-topitem{
         z-index: 1;
         position: absolute;
-        margin-left: 1%;
-        margin-top: -20%;
+         margin-left: calc(10%);
+        margin-right: calc(10%);
+        margin-top: -10%;
 
     }   
     .watch img{
@@ -912,21 +919,21 @@ padding-top: 9%;
         
     }
     .watch-learnmore-link ul li{
-        font-size: 85%;
+        font-size: 80%;
         color: #2997FF;
-        width: 50%;
-        margin-left: -13%;
+        width: 55%;
+        margin-left: -20%;
        
     }
     .iphone-14pro{
-        width: 95%;
+        width: 98%;
         color: #f5f5f7;
         text-align: center;
         isolation: isolate;
         padding-top: 5%;
         height: 85%;
-        margin-left: 10px;
-        margin-top: 10px;
+        margin-left: 3px;
+        margin-top: 1px;
     }
     .iphone-14pro h1{
         font-size: 20px;
@@ -941,7 +948,8 @@ padding-top: 9%;
     .iphone-14pro-topitem{
         z-index: 1;
         position: absolute;
-        margin-left: 23%;
+        margin-left: calc(30%);
+        margin-right: calc(21%);
     }   
     .iphone-14pro img{
         width: 100%;
@@ -964,14 +972,14 @@ padding-top: 9%;
     }
 
     .iphone-14{
-        width: 95%;
+        width: 98%;
         color: #f5f5f7;
         text-align: center;
         isolation: isolate;
         padding-top: 5%;
         height: 85%;
-        margin-left: 10px;
-        margin-top: 10px;
+        margin-left: 3px;
+        margin-top: 1px;
     }
     .iphone-14 h1{
         font-size: 20px;
@@ -987,7 +995,8 @@ padding-top: 9%;
     .iphone-14-topitem{
         z-index: 1;
         position: absolute;
-        margin-left: 23%;
+        margin-left: calc(35%);
+        margin-right: calc(21%);
     }   
     .iphone-14 img{
         width: 100%;
@@ -1009,14 +1018,14 @@ padding-top: 9%;
        
     }
     .gift{
-        width: 95%;
+        width: 98%;
         color: #f5f5f7;
         text-align: center;
         isolation: isolate;
         padding-top: 5%;
         height: 85%;
-        margin-left: 10px;
-        margin-top: 10px;
+        margin-left: 3px;
+        margin-top: 1px;
     }
     .gift h1{
         font-size: 25px;
@@ -1035,7 +1044,8 @@ padding-top: 9%;
     .gift-topitem{
         z-index: 1;
         position: absolute;
-        margin-left: 13%;
+        margin-left: calc(20%);
+        margin-right: calc(20%);
     }   
     .gift img{
         width: 100%;
@@ -1058,14 +1068,14 @@ padding-top: 9%;
     }
 
     .card{
-        width: 95%;
+        width: 98%;
         color: #f5f5f7;
         text-align: center;
         isolation: isolate;
         padding-top: 5%;
         height: 85%;
-        margin-left: 10px;
-        margin-top: 10px;
+        margin-left: 3px;
+        margin-top: 1px;
     }
     .card h1{
         font-size: 20px;
@@ -1080,7 +1090,8 @@ padding-top: 9%;
     .card-topitem{
         z-index: 1;
         position: absolute;
-        margin-left: 0%;
+        margin-left: calc(10%);
+        margin-right: calc(10%);
         margin-top: -10%;
     }   
     .card img{
