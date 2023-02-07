@@ -542,7 +542,7 @@ padding-top: 9%;
 .final-section .final-condainer{
     display: flex;
     flex-wrap: wrap;
-    margin-left: 20%;
+    margin-left: 15%;
 }
 .final-section .final-condainer h4{
     padding-left: 18%;
@@ -575,7 +575,7 @@ padding-top: 9%;
 }
 .footer h4{
     font-weight: 300;
-    padding-top: 
+    padding-top:5px; 
 }
 
 @media only screen and (max-width: 415px) {
@@ -1156,7 +1156,7 @@ padding-top: 9%;
         list-style: none;
     }
     .final-section ul li{
-        padding-top: 10px;
+        padding-top: 8px;
         font-weight: 400;
         font-size: 14px;
         text-align: center;
@@ -1164,8 +1164,8 @@ padding-top: 9%;
     .final-section ul li:hover{
         cursor: pointer;
         background-color: silver;
-        width: 100px;
         border-radius: 30px;
+        padding: 10p;
     }
     .footer{
         height: 100px;
@@ -1705,3 +1705,35 @@ padding-top: 9%;
     }
     
 }
+@media only screen and (min-width:960px) and (max-width:1500px){
+   .macbook-pro-img{
+    padding-top: 200px;
+   }
+
+   .mac-mini-img{
+    padding-top: 200px;
+   }
+   .homepad{
+    padding-top: 200px;
+   }
+   .creative{
+    margin-top: 0px;
+   }
+   .iphone-14{
+    margin-top: 10px;
+   }
+   .iphone-14pro{
+    margin-top: 10px;
+   }
+   .gift{
+    margin-top: 10px;
+   }
+   .card{
+    margin-top: 10px;
+   }
+   .final-section{
+    margin-top: -21%;
+   }
+   .footer{
+    margin-top: -20%;
+   }
