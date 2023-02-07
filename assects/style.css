@@ -6,7 +6,6 @@ body{
    display: flex;
    flex-wrap: wrap;
     background-color: rgba(0, 0, 0, 0.8);
-    height: 200px;
     color: white;
     height: 44px;
     width: 100%;
@@ -46,12 +45,19 @@ body{
  padding: 0px 25px;
  font-size: 40px;
 }
+
+#menu-bar{
+    display: none;
+    border: 1px #2A2B3C solid;
+}
+.navbar label{
+    cursor: pointer;
+    display: none;
+    position: relative;
+}
 .section-condainer{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}  
+    width: 100%;
+}
 .head{
     background-color: rgba(0, 0, 0, 1);
     position: absolute;
@@ -256,8 +262,9 @@ padding-top: 9%;
     top: 3300px;
     position: absolute;
     display: grid;
-    grid-template-columns: 933px 933px;
+    grid-template-columns: 1fr 1fr;
     text-align: center;
+    width: 98%;
 }
 .creative{
     background-color: black;
@@ -572,228 +579,591 @@ padding-top: 9%;
 }
 
 @media only screen and (max-width: 480px) {
+       
+    .nav-links{
+        display: none;
+    }
+    .navbar ul{
     
-
+        margin-top: 50px;
+        width: 500%;
+        background-color:  gray;
+        padding-left: 0px;
+        margin-left: -10%;
+    
+    }
+    #logo{
+        margin-left: -15%;
+    }
+    .navbar ul li{
+        padding: 5px 20px;
+        display: flex; 
+        font-weight: lighter;
+        font-size: smaller;
+    }
+    .navbar ul li:hover{
+        cursor: pointer;
+        background-color: black;
+        border-radius: 10px;
+        width: 100px;
+    }
+    .navbar label{
+        display: initial;
+        margin-left: 45%;
+        margin-top: 10px;
+    }
+    #menu-bar:checked~.nav-links{
+        display: initial;
+        z-index: 10;
+    }   
+    .section-condainer{
+        width: 100%;
+    }
+    .search-logo{
+        margin-top: -35px;
+        margin-left: 70%;
+    }
+    .bag{
+        margin-top: -88px;
+        margin-left: 90%;
+    }
     .head{
+        background-color: rgba(0, 0, 0, 1);
         position: absolute;
-        width: 325%;   
+        height: 300px;
+        left: 0px;
+        right: 0px;
+        top: 44px;
+        width: 100%;
+        color: #f5f5f7;
+        text-align: center;
+        display:grid;
+        align-items: center;
+        justify-content: space-around;
+        z-index: 1;
+        
     }
     .head h1{
-    font-size: 30px;
+    font-size: 15px;
+    font-weight: 550;
+    line-height: 50px;
+    font-style: normal;
+    letter-spacing: -0.28px;
+    width: 200px;
+    height: 120px;
+    padding-top: 9%;
+    }
+    
+    .head .announcement{
+        border: 2px;
+        width: 200px;
+        border-style: solid;
+        border-color:rgba(233, 95, 51, 1)
+        rgba(204, 24, 198, 1)
+        rgba(70, 152, 255, 1)
+        rgba(37, 101, 244, 1);
+        box-sizing: border-box; 
+        border-radius: 980px;
+        margin-left: 1%;
+        font-style: normal;
+        font-size: 10px;
+        font-weight: 10;
+        line-height: 10px;
     }
     .macbook-pro{
-        height: 300px;
+        height: 400px;
         background-color: black;
-        width: 325%;
-        top: 5px;
+        width: 100%;
+        margin-top: 350px;
         color: #f5f5f7;
         text-align: center;
         isolation: isolate;
-        position: absolute;
     }
     .macbook-pro h1{
-        font-size: 30px;
-        padding-top: 25px;
+        font-size: 25px;
         
     }
     .macbook-pro h4{
-        font-size: 20px;
+        font-size: 100%;
         font-weight:lighter;
         font-style: normal;
-        letter-spacing: 1px;
-        padding-top: 20px;
-        
+        letter-spacing: 0px;
+        margin-top: -20px;
         
     }
     .macbook-pro h5{
-        font-size: 15px;
-        font-weight: 500;
+        font-size: 100%;
+        font-weight: lighter;
         font-style: normal;
         color:  #6E6E73;;
         
     }
     .learnmore-link ul {
+        display: flex;
         list-style: none;
-        margin-left: -15px;
-        width: 300px;
+        margin-top: 0px;
+        margin-left: -1%;
+        
     }
-    .learnmore-link ul li{
-      font-size: 20px;
+    .macbook-pro .learnmore-link ul li{
+      font-size: 85%;
         color: #2997FF;
+        width: 40%;
     }
     .macbook-pro-topitem{
         z-index: 1;
-        position: absolute;
-        margin-left: calc(325px);
+        margin-left: 14%;
+        margin-top: 30px;
+
     }
     .macbook-pro .macbook-pro-img{
-        width: 300%;
         z-index: 0;
-        margin-top:15%;
-        position: absolute;
+        margin-top:200px;
+        position: relative;
         
     }
     .mac-mini{
-        height: 300px;
+        height: 400px;
         background-color: black;
-        width: 325%;
-        top: 630px;
+        width: 100%;
+        margin-top: 7px;
         color: #f5f5f7;
         text-align: center;
         isolation: isolate;
-        position: absolute;
     }
     .mac-mini h1{
-        font-size: 30px;
-        padding-top: 25px;
+        font-size: 25px;
         
     }
     .mac-mini h4{
-        font-size: 20px;
+        font-size: 100%;
         font-weight:lighter;
         font-style: normal;
-        letter-spacing: 1px;
-        padding-top: 20px;
-        
+        letter-spacing: 0px;
+        margin-top: -20px;
         
     }
     .mac-mini h5{
-        font-size: 15px;
-        font-weight: 500;
+        font-size: 100%;
+        font-weight: lighter;
         font-style: normal;
         color:  #6E6E73;;
         
     }
-    .mac-mini ul {
+    .mac-mini-learnmore-link ul {
+        display: flex;
         list-style: none;
-        margin-left: -15px;
-        width: 300px;
+        margin-top: 0px;
+        
     }
-    .mac-mini ul li{
-      font-size: 20px;
+    .mac-mini-learnmore-link ul li{
+      font-size: 85%;
         color: #2997FF;
+        width: 40%;
     }
     .mac-mini-topitem{
         z-index: 1;
         position: absolute;
-        margin-left: calc(325px);
+        margin-left: 17%;
+        margin-top: 30px;
     }
     .mac-mini .mac-mini-img{
         width: 100%;
         z-index: 0;
-        margin-top:15%;
+        margin-top:200px;
         position: relative;
         
     }
     .homepad{
-        height: 300px;
+        height: 400px;
         background-color: black;
-        width: 325%;
-        top: 1330px;
+        width: 100%;
+        margin-top: 7px;
         color: #f5f5f7;
         text-align: center;
         isolation: isolate;
-        position: absolute;
     }
-    .homepad-pro h1{
-        font-size: 30px;
-        padding-top: 25px;
+    .homepad h1{
+        font-size: 25px;
         
     }
     .homepad h4{
-        font-size: 20px;
+        font-size: 100%;
         font-weight:lighter;
         font-style: normal;
-        letter-spacing: 1px;
-        padding-top: 20px;
-        
+        letter-spacing: 0px;
+        margin-top: -20px;
         
     }
     .homepad h5{
-        font-size: 15px;
-        font-weight: 500;
+        font-size: 100%;
+        font-weight: lighter;
         font-style: normal;
         color:  #6E6E73;;
         
     }
-    .homepad ul {
+    .homepad-learnmore-link ul {
+        display: flex;
         list-style: none;
-        margin-left: -15px;
-        width: 300px;
+        margin-top: 0px;
+        
     }
-    .homepad ul li{
-      font-size: 20px;
+    .homepad-learnmore-link ul li{
+      font-size: 85%;
         color: #2997FF;
+        width: 40%;
     }
     .homepad-topitem{
         z-index: 1;
         position: absolute;
-        margin-left: calc(325px);
+        margin-left: 17%;
+        margin-top: 30px;
     }
     .homepad .homepad-img{
         width: 100%;
         z-index: 0;
-        margin-top:15%;
+        margin-top:200px;
         position: relative;
         
     }
-    .macbook-pro h1{
-        font-size: 30px;
-        padding-top: 25px;
-        
-    }
-    .macbook-pro h4{
-        font-size: 20px;
-        font-weight:lighter;
-        font-style: normal;
-        letter-spacing: 1px;
-        padding-top: 20px;
-        
-        
-    }
-    .macbook-pro h5{
-        font-size: 15px;
-        font-weight: 500;
-        font-style: normal;
-        color:  #6E6E73;;
-        
-    }
-    .learnmore-link ul {
-        list-style: none;
-        margin-left: -15px;
-        width: 300px;
-    }
-    .learnmore-link ul li{
-      font-size: 20px;
-        color: #2997FF;
-    }
-    .macbook-pro-topitem{
-        z-index: 1;
-        position: absolute;
-        margin-left: calc(325px);
-    }
-    .macbook-pro .macbook-pro-img{
-        width: 100%;
-        z-index: 0;
-        margin-top:15%;
-        position: relative;
-        
-    }
+    
     .grid-condainer{
       grid-template-columns: 1fr;
-      grid-template-rows: 1fr 1fr 1fr;
-      
+      margin-top: 0px;
+      position: relative;
+      text-align: center;
+      width: 100%;
+      top: 10px;
     }
     .creative{
-        margin-left: 25px;
+        width: 95%;
+        color: #f5f5f7;
+        text-align: center;
+        isolation: isolate;
+        padding-top: 5%;
+        height: 85%;
     }
-    .iphone-14pro{
-     z-index: 1;
-     top:   px;
+    .creative h1{
+        font-size: 20px;
+        
+    }
+    .creative h5{
+        font-size: 100%;
+        font-weight: lighter;
+        font-style: normal;
+        color:  #6E6E73;
+        
+    }
+    .creative-topitem{
+        z-index: 1;
+        position: absolute;
+        margin-left: 20%;
+    }   
+    .creative img{
+        width: 100%;
+        z-index: 0;
+        margin-top:20%;
+        position: relative;
+        
+    }
+    .creative-learnmore-link ul {
+        display: flex;
+        list-style: none;
+    }
+    .creative-learnmore-link ul li{
+       font-size: 85%;
+        color: #2997FF;
+        width: 50%;
     }
     .watch{
-    z-index: 0; 
+        width: 95%;
+        color: #f5f5f7;
+        text-align: center;
+        isolation: isolate;
+        padding-top: 5%;
+        height: 85%;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .watch h5{
+        font-size: 100%;
+        font-weight: lighter;
+        font-style: normal;
+        color:  #6E6E73;
+        
+    }
+    .watch-topitem{
+        z-index: 1;
+        position: absolute;
+        margin-left: 1%;
+        margin-top: -20%;
+
+    }   
+    .watch img{
+        width: 100%;
+        z-index: 0;
+        margin-top:30%;
+        position: relative;
+        
+    }
+    .watch-learnmore-link ul {
+        display: flex;
+        list-style: none;
+        
+    }
+    .watch-learnmore-link ul li{
+        font-size: 85%;
+        color: #2997FF;
+        width: 50%;
+        margin-left: -13%;
+       
+    }
+    .iphone-14pro{
+        width: 95%;
+        color: #f5f5f7;
+        text-align: center;
+        isolation: isolate;
+        padding-top: 5%;
+        height: 85%;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .iphone-14pro h1{
+        font-size: 20px;
+    }
+    .iphone-14pro h5{
+        font-size: 13px;
+        font-weight: lighter;
+        font-style: normal;
+        color:  #6E6E73;
+        
+    }
+    .iphone-14pro-topitem{
+        z-index: 1;
+        position: absolute;
+        margin-left: 23%;
+    }   
+    .iphone-14pro img{
+        width: 100%;
+        z-index: 0;
+        margin-top:20%;
+        position: relative;
+        
+    }
+    .iphone-14pro-learnmore-link ul {
+        display: flex;
+        list-style: none;
+        margin-left: -3%;
+        
+    }
+    .iphone-14pro-learnmore-link ul li{
+        font-size: 13px;
+        color: #2997FF;
+        width: 70px;
+       
     }
 
-   
+    .iphone-14{
+        width: 95%;
+        color: #f5f5f7;
+        text-align: center;
+        isolation: isolate;
+        padding-top: 5%;
+        height: 85%;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .iphone-14 h1{
+        font-size: 20px;
+        color: #1d1d1f;
+    }
+    .iphone-14 h5{
+        font-size: 13px;
+        font-weight: lighter;
+        font-style: normal;
+        color:  #6E6E73;
+        
+    }
+    .iphone-14-topitem{
+        z-index: 1;
+        position: absolute;
+        margin-left: 23%;
+    }   
+    .iphone-14 img{
+        width: 100%;
+        z-index: 0;
+        margin-top:20%;
+        position: relative;
+        
+    }
+    .iphone-14-learnmore-link ul {
+        display: flex;
+        list-style: none;
+        margin-left: -3%;
+        
+    }
+    .iphone-14-learnmore-link ul li{
+        font-size: 13px;
+        color: #2997FF;
+        width: 70px;
+       
+    }
+    .gift{
+        width: 95%;
+        color: #f5f5f7;
+        text-align: center;
+        isolation: isolate;
+        padding-top: 5%;
+        height: 85%;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .gift h1{
+        font-size: 25px;
+    }
+    .gift h4{
+        font-size: small;
+        padding-top: 20%;
+    }
+    .gift h5{
+        font-size: 100%;
+        font-weight: lighter;
+        font-style: normal;
+        color:  #6E6E73;
+        
+    }
+    .gift-topitem{
+        z-index: 1;
+        position: absolute;
+        margin-left: 13%;
+    }   
+    .gift img{
+        width: 100%;
+        z-index: 0;
+        margin-top:20%;
+        position: relative;
+        
+    }
+    .gift-learnmore-link ul {
+        display: flex;
+        list-style: none;
+        margin-left: -3%;
+        
+    }
+    .gift-learnmore-link ul li{
+        font-size: 13px;
+        color: #2997FF;
+        width: 70px;
+       
+    }
+
+    .card{
+        width: 95%;
+        color: #f5f5f7;
+        text-align: center;
+        isolation: isolate;
+        padding-top: 5%;
+        height: 85%;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .card h1{
+        font-size: 20px;
+    }
+    .card h5{
+        font-size: 100%;
+        font-weight: lighter;
+        font-style: normal;
+        color:  #6E6E73;
+        
+    }
+    .card-topitem{
+        z-index: 1;
+        position: absolute;
+        margin-left: 0%;
+        margin-top: -10%;
+    }   
+    .card img{
+        width: 100%;
+        z-index: 0;
+        margin-top:30%;
+        position: relative;
+        
+    }
+    .card-learnmore-link ul {
+        display: flex;
+        list-style: none;
+        
+    }
+    .card-learnmore-link ul li{
+        font-size: 90%;
+        color: #2997FF;
+        width: 35%;
+       
+    }
+    .shop-and-learn {
+        margin-left: -11%;
+    }
+    .services{
+        margin-left: 4%;
+    }
+    .apple-store{
+        text-align: center;
+        margin-left: -8%;
+    }
+    .apple-values{
+        text-align: center;
+        margin-left: -5%;
+    }
+    .about-apple{
+        text-align: center;
+        margin-left: -2%;
+    }
+    .final-section{
+        position: relative;
+        top:7px;
+        width: 100%;
+        background-color: #f5f5f7;
+
+    }
+    .final-section hr{
+        margin-top: 5px;
+        width: 70%;
+    }
+    .final-section .final-condainer h4{
+        padding-left: 18%;
+    }
+    .final-section ul{
+        list-style: none;
+    }
+    .final-section ul li{
+        padding-top: 10px;
+        font-weight: 400;
+        font-size: 14px;
+        text-align: center;
+    }
+    .final-section ul li:hover{
+        cursor: pointer;
+        background-color: silver;
+        width: 100px;
+        border-radius: 30px;
+    }
+    .footer{
+        height: 100px;
+        position: relative;
+        top: 15px;
+        width: 100%;
+        text-align: center;
+        padding-top: 10px;
+        background-color: black;
+        color: #f5f5f7;
+    }
+    .footer h2{
+        font-weight: 600;
+        height: 20px;
+    }
+    .footer h4{
+        font-weight: 300;
+        padding-top: 0px;
+    }
 }
