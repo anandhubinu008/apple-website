@@ -590,7 +590,7 @@ padding-top: 9%;
     
         margin-top: 20px;
         width: 500%;
-        background-color:  gray;
+        background-color:  rgba(0, 0, 0, 0.8);
         padding-left: 15%;
         margin-left: -11%;
     
@@ -607,7 +607,8 @@ padding-top: 9%;
     }
     .navbar ul li:hover{
         cursor: pointer;
-        background-color: black;
+        color: black;
+        background-color: #f5f5f7;
         border-radius: 10px;
         width: 100px;
     }
@@ -1197,7 +1198,7 @@ padding-top: 9%;
     
         margin-top: 15px;
         width: 800px;
-        background-color:  gray;
+        background-color:  rgba(0, 0, 0, 0.8);
         padding-left: 15%;
         padding: 10px;
         margin-left: %;
@@ -1215,7 +1216,8 @@ padding-top: 9%;
     }
     .navbar ul li:hover{
         cursor: pointer;
-        background-color: black;
+        background-color: #f5f5f7;
+        color: black;
         border-radius: 10px;
         width: 100px;
     }
