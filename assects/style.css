@@ -1,6 +1,7 @@
 body{
     margin: 0;
     font-family: sans-serif;
+    height: 100%;
 }
 .navbar{
    display: flex;
@@ -1705,16 +1706,31 @@ padding-top: 9%;
     }
     
 }
-@media only screen and (min-width:960px) and (max-width:1500px){
-   .macbook-pro-img{
-    padding-top: 200px;
-   }
+@media only screen and (min-width:960px) and (max-width:2000px){
+   .macbook-pro{
 
+   }
+    .macbook-pro-img{
+    padding-top: 200px;
+    height: 222%;
+   }
+    .mac-mini{
+        top: 0;
+        margin-top: ;
+    }
    .mac-mini-img{
     padding-top: 200px;
+    height: 240%;
    }
    .homepad{
     padding-top: 200px;
+   }
+   .homepad-img{
+    padding-top: 200px;
+    height: 220%;
+   }
+   .grid-condainer{
+    margin-top: 8%;
    }
    .creative{
     margin-top: 0px;
