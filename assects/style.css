@@ -581,7 +581,7 @@ padding-top: 9%;
     padding-top:5px; 
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 460px) {
        
     .nav-links{
         display: none;
@@ -1189,7 +1189,7 @@ padding-top: 9%;
         padding-top: 0px;
     }
 }
-@media only screen and (min-width:768px) and (max-width: 1020px) {
+@media only screen and (min-width:461px) and (max-width: 960px) {
     .nav-links{
         display: none;
     }
