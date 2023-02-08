@@ -581,7 +581,7 @@ padding-top: 9%;
     padding-top:5px; 
 }
 
-@media only screen and (max-width: 415px) {
+@media only screen and (max-width: 767px) {
        
     .nav-links{
         display: none;
@@ -1189,7 +1189,7 @@ padding-top: 9%;
         padding-top: 0px;
     }
 }
-@media only screen and (min-width:415px) and (max-width: 960px) {
+@media only screen and (min-width:768px) and (max-width: 1020px) {
     .nav-links{
         display: none;
     }
@@ -1708,7 +1708,7 @@ padding-top: 9%;
     }
     
 }
-@media only screen and (min-width:960px) and (max-width:1600px){
+@media only screen and (min-width:960px) and (max-width:1400px){
    .macbook-pro{
 
    }
@@ -1718,8 +1718,8 @@ padding-top: 9%;
    }
    .macbook-pro-topitem{
     z-index: 1;
-    margin-left: calc(32%);
-    margin-right: calc(20%);
+    margin-left: calc(24%);
+    margin-right: calc(24%);
     margin-top: 30px;
 
 }
@@ -1730,9 +1730,9 @@ padding-top: 9%;
     .mac-mini-topitem{
         z-index: 1;
         position: absolute;
-        margin-left: calc(33%);
-        margin-right: calc(20%);
-        margin-top: 35px;
+        margin-left: calc(27%);
+        margin-right: calc(24%);
+        margin-top: 45px;
     }
    .mac-mini-img{
     padding-top: 200px;
@@ -1742,17 +1742,17 @@ padding-top: 9%;
     padding-top: 200px;
    }
    .homepad-topitem{
-    margin-left: calc(33%);
-        margin-right: calc(20%);
+    margin-left: calc(27%);
+        margin-right: calc(25%);
    }
    .homepad-img{
     padding-top: 200px;
     height: 220%;
    }
    .grid-condainer{
-    margin-top: 10%;
+    margin-top: 12%;
     width: 97%;
-    margin-left: 5px;
+    margin-left: 2px;
    }
    .creative{
     margin-top: 0px;
@@ -1770,23 +1770,26 @@ padding-top: 9%;
     margin-top: 10px;
    }
    .final-section{
-    margin-top: -12%;
+    margin-top: -215px;
     position: absolute;
    }
    .final-section .final-condainer{
-    margin-left: 8%;
+    margin-left: 15%;
    }
    .footer{
     position: relative;
     top: 0;
-    margin-top: 214%;
     padding-top: 10px;
+    margin-top: 3510px;
   }
   .creative-topitem{
     z-index: 1;
     position: absolute;
-    margin-left: calc(15%);
-    margin-right: calc(25%);
+    margin-left: calc(10%);
+    margin-right: calc(20%);
+ }
+ .creative img{
+    padding-top: 15%;
  }
  .watch-topitem{
     z-index: 1;
@@ -1799,32 +1802,42 @@ padding-top: 9%;
     z-index: 1;
     position: absolute;
     padding-top:1%;
-    margin-left: calc(17%);
+    margin-left: calc(14%);
     margin-right: calc(15%);
+}
+.iphone-14pro img{
+    padding-top: 10%;
 }   
 .iphone-14-topitem{
     z-index: 1;
     position: absolute;
     padding-top: 1%;
     margin-left: calc(18%);
-    margin-right: calc(15%);
-}   
+    margin-right: calc(10%);
+}  
+.iphone-14 img{
+    padding-top: 10%;
+} 
 .gift-topitem{
     z-index: 1;
     position: absolute;
     padding-top: 0%;
-    margin-left: calc(12%);
+    margin-left: calc(8%);
     margin-right: calc(15%);
 }
 .gift img{
-    padding-top: 16%;
+    padding-top: 20%;
 }   
 .card-topitem{
     z-index: 1;
     position: absolute;
-    padding-top: 2%;
-    margin-left: calc(15%);
+    padding-top: 5%;
+    margin-left: calc(10%);
     margin-right: calc(7%);
 }   
+.card img{
+    padding-top: 10%;
+}
+
 
 }
